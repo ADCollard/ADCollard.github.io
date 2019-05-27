@@ -1,0 +1,309 @@
+ &INPUT
+ SATNAME = hirs4_metop-a       ,
+ IYY     =        2015,
+ IMM     =           5,
+ IDD     =          14,
+ IHH     =          18,
+ IDHH    =        -720,
+ INCR    =           6,
+ NCHANL  =        -999,
+ SUFFIX  = Ctl     ,
+ IMKCTL  =           1,
+ IMKDATA =           1,
+ RETRIEVAL       = F,
+ GESANL  = ges,
+ LITTLE_ENDIAN   =           0,
+ RAD_AREA        = glb
+ /
+  
+ gesanl  = ges
+ imkdata =            1
+ surf_nregion =            5
+ diag_rad =hirs4_metop-a                           
+ data_file=hirs4_metop-a.2015051418.ieee_d         
+ ctl_file =hirs4_metop-a.ctl                       
+ suffix   =Ctl     
+ read_diag version =            0           0
+ call read_diag_header
+ READ_RADIAG_HEADER:  isis=hirs4_metop-a        nchan=          19  npred=
+          12  angord=           4  idiag=          22  iversion=       30303 
+  inewpc=           1  isens=           0
+ string,satname=hirs4_metop-a                            hirs4_metop-a       
+    fname = bad_pen.2015051418                                          
+  opening existing bad_penalty.txt file
+    fname = bad_chan.2015051418                                         
+  opening existing bad_chan.txt file
+ --> valid, satname, fname = hirs4_metop-a       hirs4_metop-a.base  
+ unable to load fname for data error checking
+ call create_ctl_time
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2000000      0.8000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.6666667    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.2500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.3333333    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.6666667    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.3333333    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.2500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.0000000E+00
+  0.4000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.8000000      0.2000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.4000000      0.6000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.8000000      0.2000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2000000      0.8000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.8000000      0.2000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.8000000      0.2000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.2500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.0000000E+00
+  0.4000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.6666667    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.3333333      0.6666667    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.6666667    
+  0.3333333      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.3333333    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.0000000E+00
+  0.6666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.0000000E+00
+  0.6666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.0000000E+00
+  0.7500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.0000000E+00
+  0.2500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.0000000E+00
+  0.3333333      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.0000000E+00
+  0.7500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.0000000E+00
+  0.2500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.6666667    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.2500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.7500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.2000000      0.8000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.3333333      0.6666667    
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.3333333    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.0000000E+00
+  0.3333333      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.5000000      0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.3333333    
+  0.6666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.2500000    
+  0.7500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.3333333      0.6666667    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.5000000    
+  0.0000000E+00  0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.7500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.0000000E+00
+  0.2500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.4000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.0000000E+00
+  0.4000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.0000000E+00
+  0.7500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.4000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.0000000E+00
+  0.4000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.0000000E+00
+  0.2500000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.4000000      0.0000000E+00
+  0.6000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.3333333    
+  0.6666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.0000000E+00
+  0.3333333      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.0000000E+00
+  0.6666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.5000000      0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.0000000E+00
+  0.3333333      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.5000000      0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.3333333      0.6666667    
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.5000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.4000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.4000000      0.0000000E+00
+  0.6000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.0000000E+00
+  0.6666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.0000000E+00  0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.0000000E+00
+  0.0000000E+00  0.3333333    
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.0000000E+00  0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.7500000      0.2500000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.3333333      0.6666667    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.6666667      0.3333333    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.4000000      0.6000000    
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.3333333    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6000000      0.0000000E+00
+  0.4000000      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.7500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.2000000    
+  0.0000000E+00  0.8000000    
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.2500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.0000000E+00
+  0.0000000E+00  0.3333333    
+ data_fix%land_frac,water,snow,ice =   0.6666667      0.3333333    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.0000000E+00  0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.0000000E+00  0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.0000000E+00
+  0.0000000E+00  0.7500000    
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.0000000E+00
+  0.0000000E+00  0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.5000000      0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.2500000      0.7500000    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.3333333      0.6666667    
+  0.0000000E+00  0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.2500000    
+  0.0000000E+00  0.7500000    
+ data_fix%land_frac,water,snow,ice =   0.7500000      0.0000000E+00
+  0.0000000E+00  0.2500000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.2000000    
+  0.0000000E+00  0.8000000    
+ data_fix%land_frac,water,snow,ice =   0.4000000      0.0000000E+00
+  0.0000000E+00  0.6000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.5000000      0.5000000    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.6666667      0.3333333    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.0000000E+00
+  0.6666667      0.3333333    
+ data_fix%land_frac,water,snow,ice =   0.0000000E+00  0.8333333    
+  0.1666667      0.0000000E+00
+ data_fix%land_frac,water,snow,ice =   0.5000000      0.5000000    
+  0.0000000E+00  0.0000000E+00
+  
+ read in         9172  obs    9172.000    
+  
+ --> validate_penalty, channel, region, penalty            2           1
+  0.3779429    
+ --> validate_penalty, channel, region, penalty            3           1
+  0.1537864    
+ --> validate_penalty, channel, region, penalty            4           1
+  0.1567969    
+ --> validate_penalty, channel, region, penalty            5           1
+  0.1192601    
+ --> validate_penalty, channel, region, penalty            6           1
+  0.1558108    
+ --> validate_penalty, channel, region, penalty            7           1
+  0.1800249    
+ --> validate_penalty, channel, region, penalty            8           1
+  0.1291004    
+ --> validate_penalty, channel, region, penalty            9           1
+  0.2359268    
+ --> validate_penalty, channel, region, penalty           10           1
+  0.2556249    
+ --> validate_penalty, channel, region, penalty           11           1
+  0.8194879    
+ --> validate_penalty, channel, region, penalty           12           1
+   1.137294    
+ --> validate_penalty, channel, region, penalty           13           1
+  9.6819498E-02
+ --> validate_penalty, channel, region, penalty           14           1
+  7.0879683E-02
+ --> validate_penalty, channel, region, penalty           15           1
+  0.1941433    
+  
+ write output to lungrd=          51 , file=hirs4_metop-a.2015051418.ieee_d
+  
+ deallocate arrays
